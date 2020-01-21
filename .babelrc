@@ -1,0 +1,35 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-es2017-object-entries",
+    "@babel/plugin-proposal-object-rest-spread"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-es2017-object-entries",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-external-helpers"
+      ]
+    }
+  }
+}
