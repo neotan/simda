@@ -1,5 +1,5 @@
-import curry1 from "./curry1";
-import isArray from "./isArray";
+import curry1 from './curry1'
+import isArray from './isArray'
 
 const unnest = list => {
   return isArray(list)

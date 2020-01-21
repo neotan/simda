@@ -1,4 +1,4 @@
-import curry1 from "./curry1";
+import curry1 from './curry1'
 
 const curry2 = fn => {
   return (...args) => {

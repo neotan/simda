@@ -1,6 +1,6 @@
-import assert from "assert";
-import eq from "./shared/eq";
-import map from "../src/map";
+import assert from 'assert'
+import eq from './shared/eq'
+import map from '../src/map'
 
 describe('map', () => {
   const times2 = x => {

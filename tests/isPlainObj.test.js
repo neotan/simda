@@ -1,5 +1,5 @@
-import isPlainObj from "../src/isPlainObj";
-import eq from "./shared/eq";
+import isPlainObj from '../src/isPlainObj'
+import eq from './shared/eq'
 
 /*eslint-enable */
 describe('isPlainObj', () => {
