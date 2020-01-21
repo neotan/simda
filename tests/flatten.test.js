@@ -1,6 +1,6 @@
-import assert from "assert";
-import { flatten } from "../src";
-import eq from "./shared/eq";
+import assert from 'assert'
+import { flatten } from '../src'
+import eq from './shared/eq'
 
 /*eslint-enable */
 describe('flatten', () => {

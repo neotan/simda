@@ -1,5 +1,5 @@
-import assert from "assert";
-import * as R from "ramda";
+import assert from 'assert'
+import * as R from 'ramda'
 
 const eq = (...args) => {
   const [actual, expected] = args

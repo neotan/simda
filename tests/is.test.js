@@ -1,5 +1,5 @@
-import { is } from "../src";
-import eq from "./shared/eq";
+import { is } from '../src'
+import eq from './shared/eq'
 
 /*eslint-enable */
 describe('is', () => {
