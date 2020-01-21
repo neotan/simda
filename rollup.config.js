@@ -7,23 +7,23 @@ const createConfig = (input, output, additionalPlugins = []) => ({
   input,
   output: {
     file: output,
-    format: "cjs"
+    format: 'cjs',
   },
   plugins: [
     resolve({
-      mainFields: ["main"]
+      mainFields: ['main'],
     }),
     commonjs({
-      include: "node_modules/**"
+      include: 'node_modules/**',
     }),
     babel({
-      exclude: "node_modules/**"
+      exclude: 'node_modules/**',
     }),
-    ...additionalPlugins
-  ]
+    ...additionalPlugins,
+  ],
 })
 
 export default [
-  createConfig("src/index.js", "lib/index.js"),
-  createConfig("src/index.js", "lib/index.min.js", [uglify()])
+  createConfig('src/index.js', 'lib/index.js'),
+  createConfig('src/index.js', 'lib/index.min.js', [uglify()]),
 ]
