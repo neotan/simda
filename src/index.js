@@ -1,25 +1,25 @@
 import curry1 from './curry1'
 import curry2 from './curry2'
-import map from './map'
-import isPlainObj from './isPlainObj'
-import split from './split'
-import is from './is'
-import identity from './identity'
 import flatten from './flatten'
-import unnest from './unnest'
+import identity from './identity'
+import is from './is'
 import isFunction from './isFunction'
+import isPlainObj from './isPlainObj'
 import isString from './isString'
+import map from './map'
+import split from './split'
+import unnest from './unnest'
 
 export {
-  map,
-  isPlainObj,
   curry1,
   curry2,
-  is,
-  split,
-  identity,
   flatten,
-  unnest,
+  identity,
+  is,
   isFunction,
+  isPlainObj,
   isString,
+  map,
+  split,
+  unnest,
 }

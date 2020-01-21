@@ -1,7 +1,7 @@
 import curry2 from './curry2'
-import isPlainObj from './isPlainObj'
 import _toString from './internal/_toString'
 import isFunction from './isFunction'
+import isPlainObj from './isPlainObj'
 
 const ARRAYS = [
   '[object Array]',
