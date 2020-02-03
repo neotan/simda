@@ -12,6 +12,8 @@ import keys from './keys'
 import map from './map'
 import mergeRight from './mergeRight'
 import split from './split'
+import toLower from './toLower'
+import toUpper from './toUpper'
 import trim from './trim'
 import unnest from './unnest'
 
@@ -30,6 +32,8 @@ export {
   map,
   mergeRight,
   split,
+  toLower,
+  toUpper,
   trim,
   unnest,
 }
