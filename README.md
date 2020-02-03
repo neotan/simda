@@ -30,7 +30,7 @@ A light-weight alternative  of Ramda.js
 - [ ] [fromPairs](src/fromPairs.js)
 - [x] [keys](src/keys.js)
 - [ ] [mapObjIndexed](src/mapObjIndexed.js)
-- [ ] [mergeRight](src/mergeRight.js)
+- [x] [mergeRight](src/mergeRight.js)
 - [ ] [pathOr](src/pathOr.js)
 - [ ] [pickBy](src/pickBy.js)
 - [ ] [pick](src/pick.js)
