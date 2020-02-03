@@ -1,5 +1,5 @@
 import assert from 'assert'
-import map from '../src/map'
+import map from '../src'
 import eq from './shared/eq'
 
 describe('map', () => {

@@ -3,7 +3,7 @@ import _toString from './internal/_toString'
 import isFunction from './isFunction'
 import isPlainObj from './isPlainObj'
 
-const ARRAYS = [
+const ARRAY_TYPES = [
   '[object Array]',
   '[object Int8Array]',
   '[object Uint8Array]',
@@ -22,17 +22,17 @@ const map = (fn, functor) => {
   let tempFunctor = new functor.constructor()
   switch (true) {
     case isPlainObj(functor):
-      tempFunctor = new functor.constructor()
       return Object.entries(functor).reduce((accu, [key, val]) => {
         accu[key] = execFn(val, key, fn)
         return accu
       }, {})
 
-    case ARRAYS.includes(_toString(functor)):
+    case ARRAY_TYPES.includes(_toString(functor)):
       tempFunctor = new functor.constructor(functor.length)
       functor.forEach((val, i) => {
         tempFunctor[i] = execFn(val, i, fn)
       })
+      console.log({ tempFunctor })
       return tempFunctor
 
     case _toString(functor) === '[object Set]':
