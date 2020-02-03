@@ -11,6 +11,7 @@ import isString from './isString'
 import keys from './keys'
 import map from './map'
 import split from './split'
+import trim from './trim'
 import unnest from './unnest'
 
 export {
@@ -24,8 +25,9 @@ export {
   isNil,
   isPlainObj,
   isString,
+  keys,
   map,
   split,
+  trim,
   unnest,
-  keys,
 }
