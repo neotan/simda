@@ -46,5 +46,5 @@ A light-weight alternative  of Ramda.js
 - [ ] [toPairs](src/toPairs.js)
 - [x] [toUpper](src/toUpper.js)
 - [x] [trim](src/trim.js)
-- [ ] [values](src/values.js)
+- [x] [values](src/values.js)
 - [ ] [zipObj](src/zipObj.js)

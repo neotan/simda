@@ -7,7 +7,6 @@ import is from './is'
 import isFunction from './isFunction'
 import isNil from './isNil'
 import isPlainObj from './isPlainObj'
-import isString from './isString'
 import keys from './keys'
 import map from './map'
 import mergeRight from './mergeRight'
@@ -16,6 +15,7 @@ import toLower from './toLower'
 import toUpper from './toUpper'
 import trim from './trim'
 import unnest from './unnest'
+import values from './values'
 
 export {
   assoc,
@@ -27,7 +27,6 @@ export {
   isFunction,
   isNil,
   isPlainObj,
-  isString,
   keys,
   map,
   mergeRight,
@@ -36,4 +35,5 @@ export {
   toUpper,
   trim,
   unnest,
+  values,
 }
