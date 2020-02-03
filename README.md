@@ -43,7 +43,7 @@ A light-weight alternative  of Ramda.js
 - [ ] [sortBy](src/sortBy.js)
 - [ ] [sum](src/sum.js)
 - [x] [toLower](src/toLower.js)
-- [ ] [toPairs](src/toPairs.js)
+- [x] [toPairs](src/toPairs.js)
 - [x] [toUpper](src/toUpper.js)
 - [x] [trim](src/trim.js)
 - [x] [values](src/values.js)
