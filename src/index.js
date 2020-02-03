@@ -1,5 +1,6 @@
 import assoc from './assoc'
 import assocPath from './assocPath'
+import defaultTo from './defaultTo'
 import empty from './empty'
 import flatten from './flatten'
 import identity from './identity'
@@ -10,8 +11,12 @@ import isPlainObj from './isPlainObj'
 import keys from './keys'
 import map from './map'
 import mergeRight from './mergeRight'
+import path from './path'
+import pathOr from './pathOr'
 import pick from './pick'
 import pickAll from './pickAll'
+import prop from './prop'
+import propOr from './propOr'
 import split from './split'
 import toLower from './toLower'
 import toPairs from './toPairs'
@@ -24,6 +29,7 @@ import zipObj from './zipObj'
 export {
   assoc,
   assocPath,
+  defaultTo,
   empty,
   flatten,
   identity,
@@ -34,8 +40,12 @@ export {
   keys,
   map,
   mergeRight,
+  path,
+  pathOr,
   pick,
   pickAll,
+  prop,
+  propOr,
   split,
   toLower,
   toPairs,
