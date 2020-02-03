@@ -1,6 +1,6 @@
 # Simda.js
 
-A light-weight alternative  of Ramda.js
+A simple alternative of Ramda.js
 
 ### Functions
 - [x] [_curry1](src/internal/_curry1.js)
@@ -33,7 +33,8 @@ A light-weight alternative  of Ramda.js
 - [x] [mergeRight](src/mergeRight.js)
 - [ ] [pathOr](src/pathOr.js)
 - [ ] [pickBy](src/pickBy.js)
-- [ ] [pick](src/pick.js)
+- [x] [pick](src/pick.js)
+- [x] [pickAll](src/pickAll.js)
 - [ ] [pipe](src/pipe.js)
 - [ ] [pluck](src/pluck.js)
 - [ ] [prop](src/prop.js)

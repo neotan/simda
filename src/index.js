@@ -10,6 +10,8 @@ import isPlainObj from './isPlainObj'
 import keys from './keys'
 import map from './map'
 import mergeRight from './mergeRight'
+import pick from './pick'
+import pickAll from './pickAll'
 import split from './split'
 import toLower from './toLower'
 import toPairs from './toPairs'
@@ -31,6 +33,8 @@ export {
   keys,
   map,
   mergeRight,
+  pick,
+  pickAll,
   split,
   toLower,
   toPairs,
