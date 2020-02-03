@@ -19,6 +19,7 @@ import toUpper from './toUpper'
 import trim from './trim'
 import unnest from './unnest'
 import values from './values'
+import zipObj from './zipObj'
 
 export {
   assoc,
@@ -42,4 +43,5 @@ export {
   trim,
   unnest,
   values,
+  zipObj,
 }

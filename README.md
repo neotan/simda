@@ -48,4 +48,4 @@ A simple alternative of Ramda.js
 - [x] [toUpper](src/toUpper.js)
 - [x] [trim](src/trim.js)
 - [x] [values](src/values.js)
-- [ ] [zipObj](src/zipObj.js)
+- [x] [zipObj](src/zipObj.js)
