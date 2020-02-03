@@ -1,5 +1,5 @@
-import curry1 from './curry1'
-import isArray from './isArray'
+import _curry1 from './internal/_curry1'
+import isArray from './internal/_isArray'
 
 const unnest = list => {
   return isArray(list)
@@ -7,4 +7,4 @@ const unnest = list => {
     : list
 }
 
-export default curry1(unnest)
+export default _curry1(unnest)

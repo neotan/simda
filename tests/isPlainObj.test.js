@@ -1,7 +1,6 @@
 import isPlainObj from '../src/isPlainObj'
 import eq from './shared/eq'
 
-/*eslint-enable */
 describe('isPlainObj', () => {
   it('works with different types', () => {
     eq(isPlainObj(document.createElement('div')), false)
@@ -24,4 +23,3 @@ describe('isPlainObj', () => {
     eq(isPlainObj(Math), false)
   })
 })
-/*eslint-enable */

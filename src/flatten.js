@@ -1,10 +1,10 @@
-import curry1 from './curry1'
-import isArray from './isArray'
+import _curry1 from './internal/_curry1'
+import _isArray from './internal/_isArray'
 import isPlainObj from './isPlainObj'
 import unnest from './unnest'
 
 const flatten = data => {
-  if (isArray(data) || isPlainObj(data)) {
+  if (_isArray(data) || isPlainObj(data)) {
     const list = isPlainObj(data) ? Object.values(data) : data
 
     return list.reduce((accu, curr) => accu.concat(flatten(unnest(curr))), [])
@@ -13,4 +13,4 @@ const flatten = data => {
   return data
 }
 
-export default curry1(flatten)
+export default _curry1(flatten)

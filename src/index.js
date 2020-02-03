@@ -1,5 +1,5 @@
-import curry1 from './curry1'
-import curry2 from './curry2'
+import assoc from './assoc'
+import assocPath from './assocPath'
 import flatten from './flatten'
 import identity from './identity'
 import is from './is'
@@ -11,8 +11,6 @@ import split from './split'
 import unnest from './unnest'
 
 export {
-  curry1,
-  curry2,
   flatten,
   identity,
   is,
@@ -22,4 +20,6 @@ export {
   map,
   split,
   unnest,
+  assoc,
+  assocPath,
 }

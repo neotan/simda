@@ -1,7 +1,6 @@
 import { is } from '../src'
 import eq from './shared/eq'
 
-/*eslint-enable */
 describe('is', () => {
   it('works with built-in types', () => {
     eq(is(Array, []), true)
@@ -24,8 +23,8 @@ describe('is', () => {
 
     Bar.prototype = new Foo()
 
-    var foo = new Foo()
-    var bar = new Bar()
+    const foo = new Foo()
+    const bar = new Bar()
 
     eq(is(Foo, foo), true)
     eq(is(Bar, bar), true)
@@ -36,8 +35,8 @@ describe('is', () => {
   it('considers almost everything an object', () => {
     function Foo() {}
 
-    var foo = new Foo()
-    var isObject = is(Object)
+    const foo = new Foo()
+    const isObject = is(Object)
 
     eq(isObject(foo), true)
     eq(
@@ -81,4 +80,3 @@ describe('is', () => {
     eq(is(Object, ''), false)
   })
 })
-/*eslint-enable */

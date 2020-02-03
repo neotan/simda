@@ -2,7 +2,6 @@ import assert from 'assert'
 import { flatten } from '../src'
 import eq from './shared/eq'
 
-/*eslint-enable */
 describe('flatten', () => {
   it('turns a nested list into one flat list', () => {
     let nest = [1, [2], [3, [4, 5], 6, [[[7], 8]]], 9, 10]
@@ -32,4 +31,3 @@ describe('flatten', () => {
     eq(flatten([]), [])
   })
 })
-/*eslint-enable */

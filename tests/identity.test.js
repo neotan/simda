@@ -1,7 +1,6 @@
 import { identity } from '../src'
 import eq from './shared/eq'
 
-/*eslint-enable */
 describe('identity', () => {
   it('returns its first argument', () => {
     eq(identity(undefined), undefined)
@@ -13,4 +12,3 @@ describe('identity', () => {
     eq(identity.length, 1)
   })
 })
-/*eslint-enable */

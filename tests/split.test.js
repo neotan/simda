@@ -1,7 +1,6 @@
 import { split } from '../src'
 import eq from './shared/eq'
 
-/*eslint-enable */
 describe('split', () => {
   it('splits a string into an array', () => {
     eq(split('.', 'a.b.c.xyz.d'), ['a', 'b', 'c', 'xyz', 'd'])
@@ -17,4 +16,3 @@ describe('split', () => {
     ])
   })
 })
-/*eslint-enable */

@@ -1,4 +1,4 @@
-import curry2 from './curry2'
+import _curry2 from './internal/_curry2'
 import _toString from './internal/_toString'
 import isFunction from './isFunction'
 import isPlainObj from './isPlainObj'
@@ -59,4 +59,4 @@ const map = (fn, functor) => {
   }
 }
 
-export default curry2(map)
+export default _curry2(map)
