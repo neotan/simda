@@ -1,6 +1,6 @@
 {
   "name": "simda",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A simple alternative of Ramda.js.",
   "repository": {
     "type": "git",
