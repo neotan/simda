@@ -10,6 +10,7 @@ import isPlainObj from './isPlainObj'
 import isString from './isString'
 import keys from './keys'
 import map from './map'
+import mergeRight from './mergeRight'
 import split from './split'
 import trim from './trim'
 import unnest from './unnest'
@@ -27,6 +28,7 @@ export {
   isString,
   keys,
   map,
+  mergeRight,
   split,
   trim,
   unnest,
