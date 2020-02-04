@@ -1,5 +1,7 @@
+import add from './add'
 import assoc from './assoc'
 import assocPath from './assocPath'
+import concat from './concat'
 import defaultTo from './defaultTo'
 import empty from './empty'
 import filter from './filter'
@@ -20,9 +22,11 @@ import pickAll from './pickAll'
 import pluck from './pluck'
 import prop from './prop'
 import propOr from './propOr'
+import reduce from './reduce'
 import reject from './reject'
 import replace from './replace'
 import split from './split'
+import sum from './sum'
 import toLower from './toLower'
 import toPairs from './toPairs'
 import toUpper from './toUpper'
@@ -32,8 +36,10 @@ import values from './values'
 import zipObj from './zipObj'
 
 export {
+  add,
   assoc,
   assocPath,
+  concat,
   defaultTo,
   empty,
   filter,
@@ -54,9 +60,11 @@ export {
   pluck,
   prop,
   propOr,
+  reduce,
   reject,
   replace,
   split,
+  sum,
   toLower,
   toPairs,
   toUpper,
