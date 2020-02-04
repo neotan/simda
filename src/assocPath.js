@@ -18,7 +18,6 @@ const assocPath = (path, val, obj) => {
 
     val = assocPath(path.slice(1), val, nextObj)
   }
-  console.log({ idx, path, val, obj })
 
   if (_isInteger(idx) && _isArray(obj)) {
     obj[idx] = val
