@@ -3,6 +3,7 @@ import assocPath from './assocPath'
 import defaultTo from './defaultTo'
 import empty from './empty'
 import flatten from './flatten'
+import fromPairs from './fromPairs'
 import identity from './identity'
 import is from './is'
 import isFunction from './isFunction'
@@ -54,4 +55,5 @@ export {
   unnest,
   values,
   zipObj,
+  fromPairs,
 }

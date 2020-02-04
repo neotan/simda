@@ -28,7 +28,7 @@ A simple alternative of Ramda.js
 - [x] [map](src/map.js)
 - [x] [split](src/split.js)
 - [x] [unnest](src/unnest.js)
-- [ ] [fromPairs](src/fromPairs.js)
+- [x] [fromPairs](src/fromPairs.js)
 - [x] [keys](src/keys.js)
 - [ ] [mapObjIndexed](src/mapObjIndexed.js)
 - [x] [mergeRight](src/mergeRight.js)
