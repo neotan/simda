@@ -26,14 +26,6 @@ describe('map', () => {
     eq(map(dec, { x: 4, y: 5, z: 6 }), { x: 3, y: 4, z: 5 })
   })
 
-  it('dispatches to objects that implement `map`', () => {
-    const obj = {
-      x: 100,
-      map: f => f(this.x),
-    }
-    eq(map(add1, obj), { x: 101, map: f => f(this.x) })
-  })
-
   it('throws a TypeError on null and undefined', () => {
     assert.throws(() => {
       return map(times2, null)
