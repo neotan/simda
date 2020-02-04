@@ -16,6 +16,7 @@ import path from './path'
 import pathOr from './pathOr'
 import pick from './pick'
 import pickAll from './pickAll'
+import pluck from './pluck'
 import prop from './prop'
 import propOr from './propOr'
 import split from './split'
@@ -56,4 +57,5 @@ export {
   values,
   zipObj,
   fromPairs,
+  pluck,
 }
