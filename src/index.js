@@ -21,6 +21,7 @@ import pluck from './pluck'
 import prop from './prop'
 import propOr from './propOr'
 import reject from './reject'
+import replace from './replace'
 import split from './split'
 import toLower from './toLower'
 import toPairs from './toPairs'
@@ -54,6 +55,7 @@ export {
   prop,
   propOr,
   reject,
+  replace,
   split,
   toLower,
   toPairs,

@@ -7,7 +7,7 @@ A simple alternative of Ramda.js
 - [ ] [pickBy](src/pickBy.js)
 - [ ] [pipe](src/pipe.js)
 - [ ] [reduce](src/reduce.js)
-- [ ] [replace](src/replace.js)
+- [x] [replace](src/replace.js)
 - [ ] [sortBy](src/sortBy.js)
 - [ ] [sum](src/sum.js)
 - [x] [_complement](src/internal/_complement.js)
