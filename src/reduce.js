@@ -4,7 +4,7 @@ import _isArrayLike from './internal/_isArrayLike'
 
 const _arrayReduce = (fn, acc, list) => {
   for (let el of list) {
-    acc.push(el)
+    acc = fn(acc, el)
   }
   return acc
 }
