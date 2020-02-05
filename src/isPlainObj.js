@@ -1,9 +1,4 @@
-const isPlainObj = x => {
-  if (x != null && typeof x === 'object') {
-    return Object.prototype.toString.call(x) === '[object Object]'
-  }
+import _curry1 from './internal/_curry1'
+import _isObject from './internal/_isObject'
 
-  return false
-}
-
-export default isPlainObj
+export default _curry1(_isObject)
