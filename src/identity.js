@@ -1,5 +1,4 @@
 import _curry1 from './internal/_curry1'
+import _identity from './internal/_identity'
 
-const identity = x => x
-
-export default _curry1(identity)
+export default _curry1(_identity)

@@ -1,5 +1,8 @@
 const _isObject = x => {
-  return Object.prototype.toString.call(x) === '[object Object]'
+  if (x != null && typeof x === 'object') {
+    return Object.prototype.toString.call(x) === '[object Object]'
+  }
+  return false
 }
 
 export default _isObject

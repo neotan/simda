@@ -1,3 +1,4 @@
+import _curry1 from './internal/_curry1'
 import _isArguments from './internal/_isArguments'
 import _isArray from './internal/_isArray'
 import _isObject from './internal/_isObject'
@@ -20,4 +21,4 @@ const empty = x => {
   }
 }
 
-export default empty
+export default _curry1(empty)
