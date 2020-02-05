@@ -56,7 +56,7 @@ A light-weight alternative (in ES6+) of [Ramda.js](https://ramdajs.com/)
 - [x] [pluck](src/pluck.js)
 - [x] [prop](src/prop.js)
 - [x] [propOr](src/propOr.js)
-- [x] [reduce](src/reduce.js) supported (val, key, list)=>{...}
+- [x] [reduce](src/reduce.js)
 - [x] [reject](src/reject.js)
 - [x] [replace](src/replace.js)
 - [x] [slice](src/slice.js)
