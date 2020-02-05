@@ -28,6 +28,7 @@ import propOr from './propOr'
 import reduce from './reduce'
 import reject from './reject'
 import replace from './replace'
+import sortBy from './sortBy'
 import split from './split'
 import sum from './sum'
 import T from './T'
@@ -70,6 +71,7 @@ export {
   reduce,
   reject,
   replace,
+  sortBy,
   split,
   sum,
   T,
