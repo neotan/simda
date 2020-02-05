@@ -1,7 +1,7 @@
 {
   "name": "simda",
-  "version": "0.1.9",
-  "description": "A simple alternative of Ramda.js.",
+  "version": "0.1.11",
+  "description": "A light-weight alternative (in ES6+) of Ramda.js.",
   "repository": {
     "type": "git",
     "url": "https://github.com/neotan/simda.git"
@@ -15,7 +15,7 @@
     "lint": "prettier --write ./**/*.js && eslint --fix ./**/*.js"
   },
   "author": "Neo Tan <github.com/neotan>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/plugin-external-helpers": "^7.8.3",
