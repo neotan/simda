@@ -2,7 +2,7 @@ import { reject } from '../src'
 import eq from './shared/eq'
 
 describe('reject', function() {
-  var even = function(x) {
+  const even = function(x) {
     return x % 2 === 0
   }
 

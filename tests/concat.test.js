@@ -8,13 +8,13 @@ describe('concat', function() {
     eq(concat([], ['c', 'd']), ['c', 'd'])
   })
 
-  var z1 = {
+  const z1 = {
     x: 'z1',
     concat: function(that) {
       return this.x + ' ' + that.x
     },
   }
-  var z2 = {
+  const z2 = {
     x: 'z2',
   }
 

@@ -15,7 +15,7 @@ describe('sort', function() {
   })
 
   it('does not affect the list passed supplied', function() {
-    var list = [3, 1, 8, 1, 2, 5]
+    const list = [3, 1, 8, 1, 2, 5]
     eq(
       sort(function(a, b) {
         return a - b
