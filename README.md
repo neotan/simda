@@ -1,6 +1,6 @@
 # Simda.js
 
-A simple alternative of Ramda.js
+A light-weight alternative (in ES6+) of [Ramda.js](https://ramdajs.com/)
 
 ### Functions
 
