@@ -1,5 +1,5 @@
-import _isFunction from 'ramda/src/internal/_isFunction'
 import _isArrayLike from './_isArrayLike'
+import _isFunction from './_isFunction'
 
 const _arrayReduce = (fn, acc, list) => {
   for (let el of list) {

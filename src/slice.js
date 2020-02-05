@@ -1,5 +1,5 @@
-import _isFunction from 'ramda/src/internal/_isFunction'
 import _curry3 from './internal/_curry3'
+import _isFunction from './internal/_isFunction'
 
 const slice = (fromIdx, toIdx, list) => {
   return _isFunction(list.slice)

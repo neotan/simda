@@ -1,6 +1,6 @@
-import _isFunction from 'ramda/src/internal/_isFunction'
 import _curry2 from './internal/_curry2'
 import _isArray from './internal/_isArray'
+import _isFunction from './internal/_isFunction'
 import _isString from './internal/_isString'
 
 const concat = (a, b) => {
