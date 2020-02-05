@@ -1,4 +1,4 @@
-# Simda.js
+# [Simda.js](https://www.npmjs.com/package/simda)
 
 A light-weight alternative (in ES6+) of [Ramda.js](https://ramdajs.com/)
 
