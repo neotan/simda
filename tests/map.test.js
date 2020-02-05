@@ -3,6 +3,8 @@ import { map } from '../src'
 import eq from './shared/eq'
 
 describe('map', () => {
+  const obj = { a: 1 }
+
   const times2 = x => {
     return x * 2
   }
@@ -12,6 +14,18 @@ describe('map', () => {
   const dec = x => {
     return x - 1
   }
+
+  it('is called with (val,key,obj)', function() {
+    eq(
+      map((val, key, _obj) => {
+        eq(val, 1)
+        eq(key, 'a')
+        eq(_obj, obj)
+        return val * 2
+      }, obj),
+      { a: 2 },
+    )
+  })
 
   it('maps simple functions over arrays', () => {
     eq(map(times2, [1, 2, 3, 4]), [2, 4, 6, 8])

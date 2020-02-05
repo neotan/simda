@@ -1,8 +1,10 @@
 const _map = (fn, list) => {
   const result = []
 
-  for (let el of list) {
-    result.push(fn(el))
+  for (let i in list) {
+    if (list.hasOwnProperty(i)) {
+      result.push(fn(list[i], i, list))
+    }
   }
   return result
 }

@@ -13,7 +13,7 @@ const map = (fn, list) => {
     case _isObject(list):
       return _reduce(
         (acc, key) => {
-          acc[key] = fn(list[key])
+          acc[key] = fn(list[key], key, list)
           return acc
         },
         {},
