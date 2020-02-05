@@ -1,9 +1,11 @@
 import add from './add'
+import always from './always'
 import assoc from './assoc'
 import assocPath from './assocPath'
 import concat from './concat'
 import defaultTo from './defaultTo'
 import empty from './empty'
+import F from './F'
 import filter from './filter'
 import flatten from './flatten'
 import fromPairs from './fromPairs'
@@ -19,6 +21,7 @@ import path from './path'
 import pathOr from './pathOr'
 import pick from './pick'
 import pickAll from './pickAll'
+import pickBy from './pickBy'
 import pluck from './pluck'
 import prop from './prop'
 import propOr from './propOr'
@@ -27,6 +30,7 @@ import reject from './reject'
 import replace from './replace'
 import split from './split'
 import sum from './sum'
+import T from './T'
 import toLower from './toLower'
 import toPairs from './toPairs'
 import toUpper from './toUpper'
@@ -37,11 +41,13 @@ import zipObj from './zipObj'
 
 export {
   add,
+  always,
   assoc,
   assocPath,
   concat,
   defaultTo,
   empty,
+  F,
   filter,
   flatten,
   fromPairs,
@@ -56,6 +62,7 @@ export {
   path,
   pathOr,
   pick,
+  pickBy,
   pickAll,
   pluck,
   prop,
@@ -65,6 +72,7 @@ export {
   replace,
   split,
   sum,
+  T,
   toLower,
   toPairs,
   toUpper,
