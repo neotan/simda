@@ -7,8 +7,4 @@ describe('identity', () => {
     eq(identity('foo'), 'foo')
     eq(identity('foo', 'bar'), 'foo')
   })
-
-  it('has length 1', function() {
-    eq(identity.length, 1)
-  })
 })
