@@ -43,7 +43,7 @@ A light-weight alternative (in ES6+) of [Ramda.js](https://ramdajs.com/)
 - [x] [isNil](src/isNil.js)
 - [x] [**isPlainObj**](src/isPlainObj.js)
 - [x] [**keys**](src/keys.js)
-- [x] [map](src/map.js) supported (val, key, list)=>{...}
+- [x] [**map**](src/map.js) supported (val, key, list)=>{...}
 - [x] [mergeRight](src/mergeRight.js)
 - [x] [multiply](src/multiply.js)
 - [x] [nth](src/nth.js)
